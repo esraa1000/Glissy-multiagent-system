@@ -1,0 +1,38 @@
+# Core dependencies
+langchain==0.3.27
+langchain_core==0.3.79
+langgraph
+langchain_community
+langchain_openai
+
+# Google AI & Generative
+langchain-google-genai==2.0.10
+google-generativeai==0.8.5
+google-api-python-client
+
+# Vision & Image Processing
+transformers==4.57.1
+torch==2.9.0
+torchvision==0.24.0+cpu
+Pillow==12.0.0
+numpy==2.3.4
+
+# Vector Database & Embeddings
+faiss-cpu==1.12.0
+openai==2.4.0
+
+# Jupyter Support
+ipykernel
+jupyter
+
+# Web API (optional - for FastAPI integration)
+fastapi==0.104.1
+uvicorn==0.24.0
+python-multipart==0.0.6
+
+# Utilities
+python-dotenv
+pydantic==2.12.2
+
+
+
